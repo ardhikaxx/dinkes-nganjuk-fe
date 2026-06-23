@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Publikasi - Dinas Kesehatan Kabupaten Nganjuk</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/publikasi.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl navbar-light custom-navbar">
+        <div class="container-fluid px-3 px-xl-4">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/logo-dinkes-web.webp" alt="Logo Dinkes Nganjuk" class="navbar-logo me-2">
+            </a>
+            <button class="navbar-toggler border-0 shadow-none bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-medium">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Profil Perangkat Daerah
+                        </a>
+                        <ul class="dropdown-menu border-0 shadow-sm">
+                            <li><a class="dropdown-item" href="profil.html">Profil Dinkes</a></li>
+                            <li><a class="dropdown-item" href="tupoksi.html">Tupoksi Dinkes</a></li>
+                            <li><a class="dropdown-item" href="visi-misi.html">Visi-Misi Kepala Daerah</a></li>
+                            <li><a class="dropdown-item" href="maklumat.html">Maklumat Pelayanan</a></li>
+                            <li><a class="dropdown-item" href="#">Mekanisme Pengaduan</a></li>
+                            <li><a class="dropdown-item" href="motto.html">Motto Pelayanan</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Layanan Publik
+                        </a>
+                        <ul class="dropdown-menu border-0 shadow-sm">
+                            <li><a class="dropdown-item" href="medis.html">Medis</a></li>
+                            <li><a class="dropdown-item" href="faskes.html">Fasilitas Kesehatan</a></li>
+                            <li><a class="dropdown-item" href="lainnya.html">Layanan Lainnya</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="puskesmas.html">Website Puskesmas</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Informasi
+                        </a>
+                        <ul class="dropdown-menu border-0 shadow-sm">
+                            <li><a class="dropdown-item" href="#">RSD Nganjuk</a></li>
+                            <li><a class="dropdown-item" href="#">RSD Kertosono</a></li>
+                            <li><a class="dropdown-item" href="#">Lapor SP4N</a></li>
+                            <li><a class="dropdown-item" href="#">SIPPN</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="publikasi.html">Data Publikasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PPID</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="bg-light" style="padding-top: 150px; padding-bottom: 60px;">
+        <div class="container text-center">
+            <h1 class="display-5 fw-black text-dark mb-3 section-title text-capitalize">Data Publikasi</h1>
+            <p class="lead text-muted mx-auto" style="max-width: 700px;">Kumpulan profil Puskesmas, laporan hasil, serta informasi publik dan pengumuman terbaru.</p>
+        </div>
+    </header>
+
+    <!-- Content Section -->
+    <section class="py-5 bg-white">
+        <div class="container py-4">
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Bagor</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Puskesmas Bagor merupakan satu-satunya puskesmas yang terletak di Kecamatan Bagor Kabupaten Nganj...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Bagor</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Puskesmas Bagor merupakan satu-satunya puskesmas yang terletak di Kecamatan Bagor Kabupaten Nganj...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Baron</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Sebagai fasilitas pelayanan kesehatan strata/tingkat pertama, Puskesmas Baron bertanggung jawab m...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Berbek</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Puskesmas Berbek. merupakan Puskesmas induk di Kecamatan Berbek. Puskesmas Berbek dibangun sesuai...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Gondang</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Secara geografis wilayah kerja Puskesmas Gondang berada di Kecamatan Gondang Kabupaten Nganjuk, t...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Jatikalen</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Puskesmas Jatikalen merupakan salah satu OPD dari Dinas Kesehatan Kabupaten Nganjuk yang beralama...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Kertosono</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Puskesmas Kertosono merupakan satu-satunya Puskesmas Induk di Kecamatan Kertosono yang berada di...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Lengkong</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Puskesmas Lengkong terletak pada titik koordinat 111045' - 112013’ Bujur timur 7 020&rs...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Nganjuk</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Puskesmas Nganjuk terletak pada titik koordinat Latitude -7.583795 -Longitude 111.904399. Batas-b...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Ngluyu</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Secara geografis wilayah kerja Puskesmas Ngluyu berada di Kecamatan Ngluyu Kabupaten Nganjuk, den...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Ngronggot</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Puskesmas Kecamatan Ngronggot merupakan salah satu unit pelaksana tehnis Dinas Kesehatan Kab. Nga...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Pace</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Puskesmas Pace terletak pada 11 km tenggara Kabupaten Nganjuk, dengan batas-batas wilayah : sebel...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Patianrowo</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Puskesmas Patianrowo terletak di Kecamatan Patianrowo Kabupaten Nganjuk, berlokasi di di Jalan Ng...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Prambon</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Puskesmas Prambon terletak Jl. Raya Sanggrahan No. 2 Kode Pos 64484. Puskesmas Prambon dibangun d...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Rejoso</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Puskesmas Rejoso terletak di Jalan PUD No. 01 Desa Banjarejo, Kecamatan Rejoso, Kabupaten Nganjuk...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Sawahan</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Secara geografis wilayah kerja Puskesmas Sawahan berada di Kecamatan Sawahan Kabupaten Nganjuk te...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Sukomoro</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Puskesmas Sukomoro beralamat di Jalan Raya Nganjuk Sukomoro Km. 5 di Kecamatan Sukomoro. Lokasi P...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Tanjunganom</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Puskesmas Tanjunganom merupakan salah satu UPTD Dinas Kesehatan Kabupaten Nganjuk yang beralamat...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Wilangan</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1"></p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Loceret</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Puskesmas Loceret terletak pada : 1110 45 0 – 112 0 13' Bujur Timur 70 21' –...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-primary) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-primary-soft text-primary rounded-pill px-3 py-2 mb-3"><i class="fas fa-hospital me-2"></i> Profil Puskesmas</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">Profil Puskesmas Ngetos</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Puskesmas Ngetos merupakan salah satu Dinkesda Kabupaten Nganjuk yang beralamat di Jl. Panglima S...</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-warning) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-warning-soft text-warning rounded-pill px-3 py-2 mb-3"><i class="fas fa-bullhorn me-2"></i> Pengumuman</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">FORUM KONSULTASI PUBLIK "Optimalisasi Program PKG, JKN, dan Upaya Penurunan Stunting di Kabupaten Nganjuk"</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">📢 Forum Konsultasi Publik Dinkes Nganjuk
+
+🗓️ Nganjuk, 13 Agustus 2025
+
+...</p>
+                            <a href="#" class="btn btn-outline-warning btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 position-relative hover-shadow-lg transition-all" style="border-top: 4px solid var(--bs-success) !important;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="mb-3">
+                                <span class="badge bg-success-soft text-success rounded-pill px-3 py-2 mb-3"><i class="fas fa-chart-bar me-2"></i> Pengumuman</span>
+                                <h5 class="card-title fw-bold text-dark lh-base" style="min-height: 50px;">HASIL SKM DINAS KESEHATAN KABUPATEN NGANJUK TAHUN 2025</h5>
+                            </div>
+                            <p class="card-text text-muted mb-4 small flex-grow-1">Dinas Kesehatan Kabupaten Nganjuk berkomitmen terus meningkatkan kualitas pelayanan kesehatan. Me...</p>
+                            <a href="#" class="btn btn-outline-success btn-sm rounded-pill align-self-start fw-medium px-3 mt-auto">Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container pt-4">
+            <div class="row mb-4">
+                <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+                    <div class="mb-4">
+                        <img src="assets/logo-dinkes-web.webp" alt="Logo Dinkes Nganjuk" class="img-fluid" style="max-height: 65px;">
+                    </div>
+                    <p class="text-white-50 small pe-lg-4 mb-4" style="line-height: 1.8;">Mewujudkan Masyarakat Nganjuk yang Sehat, Mandiri, dan Berkeadilan melalui pelayanan kesehatan yang berkualitas, merata, dan terjangkau.</p>
+                    <div class="social-icons d-flex gap-2">
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center" style="width: 35px; height: 35px;"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center" style="width: 35px; height: 35px;"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center" style="width: 35px; height: 35px;"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center" style="width: 35px; height: 35px;"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+                    <h6 class="text-uppercase fw-bold mb-4 position-relative pb-2" style="border-bottom: 2px solid rgba(255,255,255,0.1);">
+                        Tautan Cepat
+                        <span class="position-absolute bottom-0 left-0 bg-primary" style="height: 2px; width: 40px; margin-left: -40px;"></span>
+                    </h6>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-3"><a href="index.html" class="text-white-50 text-decoration-none"><i class="fas fa-chevron-right me-2 small"></i>Beranda</a></li>
+                        <li class="mb-3"><a href="profil.html" class="text-white-50 text-decoration-none"><i class="fas fa-chevron-right me-2 small"></i>Profil</a></li>
+                        <li class="mb-3"><a href="#" class="text-white-50 text-decoration-none"><i class="fas fa-chevron-right me-2 small"></i>Layanan Publik</a></li>
+                        <li class="mb-3"><a href="#" class="text-white-50 text-decoration-none"><i class="fas fa-chevron-right me-2 small"></i>Berita</a></li>
+                        <li class="mb-3"><a href="#" class="text-white-50 text-decoration-none"><i class="fas fa-chevron-right me-2 small"></i>PPID</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                    <h6 class="text-uppercase fw-bold mb-4 position-relative pb-2" style="border-bottom: 2px solid rgba(255,255,255,0.1);">
+                        Layanan Eksternal
+                        <span class="position-absolute bottom-0 left-0 bg-primary" style="height: 2px; width: 40px; margin-left: -40px;"></span>
+                    </h6>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-3"><a href="#" class="text-white-50 text-decoration-none"><i class="fas fa-chevron-right me-2 small"></i>Pemkab Nganjuk</a></li>
+                        <li class="mb-3"><a href="#" class="text-white-50 text-decoration-none"><i class="fas fa-chevron-right me-2 small"></i>Kementerian Kesehatan</a></li>
+                        <li class="mb-3"><a href="#" class="text-white-50 text-decoration-none"><i class="fas fa-chevron-right me-2 small"></i>Dinkes Prov. Jatim</a></li>
+                        <li class="mb-3"><a href="#" class="text-white-50 text-decoration-none"><i class="fas fa-chevron-right me-2 small"></i>BPJS Kesehatan</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                    <h6 class="text-uppercase fw-bold mb-4 position-relative pb-2" style="border-bottom: 2px solid rgba(255,255,255,0.1);">
+                        Hubungi Kami
+                        <span class="position-absolute bottom-0 left-0 bg-primary" style="height: 2px; width: 40px; margin-left: -40px;"></span>
+                    </h6>
+                    <ul class="list-unstyled text-white-50 small">
+                        <li class="mb-4 d-flex">
+                            <div class="bg-primary-soft rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0" style="width: 32px; height: 32px;">
+                                <i class="fas fa-map-marker-alt text-primary"></i>
+                            </div>
+                            <span style="line-height: 1.6;">Jl. Dokter Soetomo No.77, Payaman, Kec. Nganjuk, Kabupaten Nganjuk, Jawa Timur 64418</span>
+                        </li>
+                        <li class="mb-4 d-flex align-items-center">
+                            <div class="bg-primary-soft rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0" style="width: 32px; height: 32px;">
+                                <i class="fas fa-phone-alt text-primary"></i>
+                            </div>
+                            <span>(0358) 321xxx</span>
+                        </li>
+                        <li class="mb-4 d-flex align-items-center">
+                            <div class="bg-primary-soft rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0" style="width: 32px; height: 32px;">
+                                <i class="fas fa-envelope text-primary"></i>
+                            </div>
+                            <span>dinkes@nganjukkab.go.id</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="border-secondary mt-2 mb-4 opacity-50">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="text-white-50 small mb-0">&copy; 2026 Dinas Kesehatan Kabupaten Nganjuk. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <a href="#" class="text-white-50 small text-decoration-none me-3 hover-white">Kebijakan Privasi</a>
+                    <a href="#" class="text-white-50 small text-decoration-none hover-white">Syarat & Ketentuan</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom Script for Navbar Scroll -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    document.querySelector('.custom-navbar').classList.add('scrolled');
+                } else {
+                    document.querySelector('.custom-navbar').classList.remove('scrolled');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
