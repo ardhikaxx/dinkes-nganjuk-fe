@@ -4,6 +4,8 @@
     --primary-color: #00796b; /* Emerald green - representing health/nature */
     --bs-primary: #00796b;
     --bs-primary-rgb: 0, 121, 107;
+    --bs-link-color: #00796b;
+    --bs-link-hover-color: #004d40;
     --primary-hover: #004d40;
     --primary-soft: #ccfbf1;
     --secondary-color: #f1f5f9;
