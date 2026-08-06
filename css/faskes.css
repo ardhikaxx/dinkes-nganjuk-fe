@@ -210,9 +210,12 @@ body {
 }
 
 .btn-white:hover {
-    background-color: var(--primary-soft);
-    color: var(--primary-color);
-    border-color: var(--primary-soft);
+    background-color: var(--primary-color);
+    color: #ffffff !important;
+    border-color: var(--primary-color);
+}
+.btn-white:hover i, .btn-white:hover .text-primary {
+    color: #ffffff !important;
 }
 
 .pulse-dot {
