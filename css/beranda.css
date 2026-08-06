@@ -95,10 +95,8 @@ body {
     transform: translateX(-50%);
     width: 95%;
     max-width: 1320px;
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.6);
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 20px;
     padding: 0.5rem 1rem;
     z-index: 1030;
@@ -107,10 +105,10 @@ body {
 }
 
 .custom-navbar.scrolled {
-    background: rgba(255, 255, 255, 0.85);
+    background: #ffffff;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     top: 10px;
-    border-color: rgba(255, 255, 255, 0.8);
+    border-color: rgba(0, 0, 0, 0.08);
 }
 
 .custom-navbar .navbar-brand .navbar-logo {
@@ -179,7 +177,7 @@ body {
 
 @media (max-width: 1199.98px) {
     .custom-navbar {
-        background: rgba(255, 255, 255, 0.85);
+        background: #ffffff;
         border-radius: 15px;
         padding: 0.5rem 1rem;
     }
@@ -317,9 +315,7 @@ body {
 }
 
 .glass-card {
-    background: rgba(255, 255, 255, 0.85);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    background: #ffffff;
     border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
