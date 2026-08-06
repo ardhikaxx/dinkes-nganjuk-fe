@@ -143,10 +143,14 @@ body {
     margin: 0 0.2rem;
 }
 
-.custom-navbar .nav-link:hover, 
-.custom-navbar .nav-link.active {
-    color: var(--primary-color);
+.custom-navbar .nav-link:hover {
+    color: var(--primary-color) !important;
     background-color: var(--primary-soft);
+}
+
+.custom-navbar .nav-link.active {
+    color: #ffffff !important;
+    background-color: var(--primary-color);
 }
 
 .dropdown-menu {
